@@ -1,0 +1,34 @@
+{
+  "name": "amr-pronos-prototype",
+  "version": "1.0.0",
+  "description": "AMR Pronos prototype",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "amr",
+    "pronos"
+  ],
+  "author": "Olympe Kassa",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.6.0",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.0.3",
+    "babel-loader": "^8.0.6",
+    "babel-polyfill": "^6.26.0",
+    "eslint": "^6.4.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3",
+    "glob": "^7.1.4",
+    "stylelint": "^10.1.0",
+    "stylelint-checkstyle-formatter": "^0.1.2",
+    "stylelint-config-standard": "^18.3.0",
+    "stylelint-no-browser-hacks": "^1.2.1",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.8"
+  }
+}

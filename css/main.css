@@ -1,0 +1,138 @@
+/**
+* MAIN (e.g. core.client.css)
+* The styles in this file represent all basic styles for the <CLIENT> <PROJECTNAME> site.
+* It includes a reset, the basic grid and some default components.
+*<br>* Why we are using the equals sign in the section identifier:
+* stopdesign.com/archive/2005/05/03/css-tip-flags.html
+*
+* @project   PROJECT NAME
+* @date      YYYY-MM-DD
+* @author    YOUR NAME, SapientNitro <YOUREMAIL@sapient.com>
+* @licensor  CLIENTNAME
+* @site      PROJECTNAME
+*
+* @dependency framework.css
+* @dependency core.client.css
+*
+*/
+.amrPronos-Body{
+
+}
+
+.amrPronos-Header{
+
+}
+
+.amrPronos-HeaderNav{
+    height: 9rem;
+    padding-bottom: 2rem;
+}
+
+.amrPronos-HeaderLogoLink{
+    padding-top: 0.5rem;
+    height: 7rem;
+}
+
+.amrPronos-HeaderLogoImg{
+    height: 100%;
+    margin-top: 0.8rem;
+}
+
+.amrPronos-Button{
+    margin-bottom: 0.1rem;
+}
+
+/**
+
+Our Packs Component
+ */
+
+.amrPronos-Pack {
+    border-spacing: 0.2rem;
+    border-style: solid;
+    border-width: 2px;
+    margin-bottom: 2rem;
+}
+
+.amrPronos-Pack--Saphir {
+    border-color: #42A5F5;
+}
+
+.amrPronos-Pack__Content--Saphir {
+    color: #42A5F5;
+}
+
+.amrPronos-Pack--Ruby {
+    border-color: #EF5350;
+}
+
+.amrPronos-Pack__Content--Ruby {
+    color: #EF5350;
+}
+
+.amrPronos-Pack--Emeraude {
+    border-color: #009688;
+}
+
+.amrPronos-Pack__Content--Emeraude {
+    color: #009688;
+}
+
+.amrPronos-Pack--Diamant {
+    border-color: #9575cd;
+}
+
+.amrPronos-Pack__Content--Diamant {
+    color: #9575cd;
+}
+
+.amrPronos-Pack__Header{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: #ffffff;
+    font-size: 3rem;
+}
+
+
+.amrPronos-Pack__Img{
+    height: 4rem;
+    width: 4rem;
+}
+
+
+
+/**
+ Footer Component
+ */
+
+.amrPronos-Footer{
+    color: #ffffff;
+}
+
+.amrPronos-Footer__Top{
+    background-color: #305069;
+    height: 100%;
+    padding-top: 1rem;
+}
+
+.amrPronos-Footer__ItemLink {
+    color: #ffffff;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+}
+
+.amrPronos-Footer__Bottom {
+    background-color: #8D1414;
+    height: 100%;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+}
+
+.amrPronos-Footer__helpMessage{
+    margin-bottom: 0.2rem;
+    padding-bottom: 0rem;
+}
+
+.amrPronos-Footer__Row {
+    margin-bottom: 0.3rem;
+}
