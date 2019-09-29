@@ -48,6 +48,18 @@
 
 /**
 
+Next Games
+
+ */
+li.active.amrPronos-NextGamesPaginationLink--active{
+    background-color: #305069 ;
+}
+
+.amrPronos-NextGameImage {
+    margin-left: 0;
+}
+/**
+
 Our Packs Component
  */
 
@@ -121,7 +133,7 @@ Our Packs Component
  }
 
 .amrPronos-NextGamesContentMobile{
-    height: 10rem;
+    height: 8rem;
     margin-left:4rem;
     margin-right:4rem;
 }
@@ -138,6 +150,10 @@ Our Packs Component
     background-color: #305069;
     height: 100%;
     padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.amrPronos-Footer__TopRow {
+    margin-bottom: 0;
 }
 
 .amrPronos-Footer__ItemLink {
@@ -160,4 +176,10 @@ Our Packs Component
 
 .amrPronos-Footer__Row {
     margin-bottom: 0.3rem;
+}
+
+.amrPronos-NextGameCard {
+    margin-left: 2rem;
+    margin-right: 2rem;
+;
 }

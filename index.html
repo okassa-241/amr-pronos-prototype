@@ -81,14 +81,20 @@
       </section>
     </section>
   </section>
-  <section class="amrPronos-MidArea">
+  <section class="orange lighten-4 amrPronos-MidArea">
     <section class="container">
-      <section class="row">
+      <section class="center row">
         <section class="col s12 m12 l12 xl12 ">
           <!--
           Drupal Region
           {{page.searchBar}}
           -->
+              <div class="row" id="topbarsearch">
+                <div class="white input-field col s12 m12 l12 xl12 white-text">
+                  <input type="text" placeholder="Rechercher des conseils" id="autocomplete-input" class="center autocomplete red-text" >
+                  <i class="red-text material-icons right">search</i>
+                </div>
+              </div>
         </section>
       </section>
       <section class="row">
@@ -322,9 +328,9 @@
   <section class="amrPronos-3rdArea">
     <div class="container">
       <div class="row center ">
-        <div class="col s12 m8 l8 xl8 amrPronos-VideoPlayer">
+        <div class="col s12 m7 l7 xl7 offset-l1 offset-xl1 amrPronos-VideoPlayer">
           <section class="row">
-            <h5>DECOUVREZ NOTRE CHAINE</h5>
+            <h5>DECOUVREZ NOTRE CHAINE <br> YOUTUBE</h5>
           </section>
           <section class="row">
             <div class="video-container">
@@ -339,15 +345,75 @@
           <section class="row">
             <section class="col l12 xl12 hide-on-small-and-down ">
               <section class="amrPronos-NextGamesContent">
-
+                <ul>
+                  <li>
+                    <a class="amrPronos-NextGame" href="#">
+                      <div class="card horizontal amrPronos-NextGameCard">
+                        <div class="card-image">
+                          <img src="img/sports/foot-ball.svg">
+                        </div>
+                        <div class="card-stacked">
+                          <div class="card-content">
+                            <p>Lille - Guingamp.</p>
+                          </div>
+                          <div class="card-action">
+                            <a href="#">This is a link</a>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="card horizontal amrPronos-NextGameCard">
+                        <div class="card-stacked">
+                          <div class="card-content">
+                            <p>Lille - Guingamp.</p>
+                          </div>
+                          <div class="card-action">
+                            <a href="#">This is a link</a>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <div class="card horizontal amrPronos-NextGameCard">
+                        <div class="card-stacked">
+                          <div class="card-content">
+                            <p>Lille - Guingamp.</p>
+                          </div>
+                          <div class="card-action">
+                            <a href="#">This is a link</a>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
               </section>
-
+              <section class="row">
+                <ul class="pagination">
+                  <li class="amrPronos-NextGamesPaginationLink disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+                  <li class="amrPronos-NextGamesPaginationLink  active amrPronos-NextGamesPaginationLink--active"><a href="#!">1</a></li>
+                  <li class="amrPronos-NextGamesPaginationLink waves-effect"><a href="#!">2</a></li>
+                  <li class="amrPronos-NextGamesPaginationLink waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+                </ul>
+              </section>
             </section>
             <section class="col s12 m12 show-on-small hide-on-med-and-up ">
               <section class="amrPronos-NextGamesContentMobile">
 
               </section>
-
+              <section class="row">
+                <ul class="pagination">
+                  <li class="amrPronos-NextGamesPaginationLink disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+                  <li class="amrPronos-NextGamesPaginationLink  active amrPronos-NextGamesPaginationLink--active"><a href="#!">1</a></li>
+                  <li class="amrPronos-NextGamesPaginationLink waves-effect"><a href="#!">2</a></li>
+                  <li class="amrPronos-NextGamesPaginationLink waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+                </ul>
+              </section>
             </section>
           </section>
         </div>
@@ -385,10 +451,9 @@
           </a>
         </div>
       </div>
-      <!-- @TODO : Fix alignment in the center -->
-      <div class="row center ">
-        <div class="col s12 m4 l4 xl4 amrPronos-Footer__Item">
-          <span class="center-align">Copyright 2019 - AMR Pronos</span>
+      <div class="row center amrPronos-Footer__TopRow">
+        <div class="col s12 m12 l12 xl12 amrPronos-Footer__Item">
+          <span>Copyright 2019 - AMR Pronos</span>
         </div>
       </div>
     </div>
