@@ -28,13 +28,10 @@
 
     $(".slider").slider({
         indicators:false,
-        height:500,
+        height:490,
         transaction:500,
         interval:5000
     });
 
-    $(document).ready(function(){
-        $('.modal').modal();
-    });
 
 }(window, jQuery));
